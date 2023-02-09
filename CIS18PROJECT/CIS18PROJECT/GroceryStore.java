@@ -1,7 +1,6 @@
 package CIS18PROJECT;
 import java.util.Scanner;
 
-import CIS18PROJECT.GroceryStoreFrame;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -96,5 +95,6 @@ public class GroceryStore {
         writer.close();
 
         System.out.println("Thank you for your order!");
+        input.close();
     }
 }
