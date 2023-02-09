@@ -11,7 +11,7 @@ import java.io.FileWriter;
 
 public class GroceryStore {
     public static void main(String[] args) throws Exception {
-        GroceryStoreFrame Swing = new GroceryStoreFrame();
+        CIS18PROJECT.GroceryStoreFrame Swing = new GroceryStoreFrame();
         Swing.GroceryFrame();
         Scanner input = new Scanner(System.in);
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
